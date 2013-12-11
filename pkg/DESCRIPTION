@@ -1,0 +1,18 @@
+Package: voucher
+Type: Package
+Title: Create herbarium labels for vegsoup objects
+Version: 0.1-1
+Date: 2013-12-11
+Author: Roland Kaiser
+Maintainer: Roland Kaiser <kardinal.eros@gemail.com>
+Depends: R (>= 3.0.1), vegsoup (>= 0.1-9)
+Description: Functions to typeset herbarium labels using LaTex from data extracted from a Vegsoup object (http://r-forge.r-project.org/projects/vegsoup/)
+License: GPL (>= 2)
+Encoding: UTF-8
+LazyLoad: yes
+LazyData: yes
+Collate: collect.R
+         label.R
+         labels.R
+         pageLayout.R
+         templates.R

@@ -1,5 +1,4 @@
-labels <-
-function (x, file = "labels.tex", template) {
+labels <- function (x, file = "labels.tex", template) {
 	if (missing(template)) {
 		stop("please supply LaTex template")
 	}

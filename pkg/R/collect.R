@@ -1,6 +1,4 @@
-collectVoucher <-
-function (x) {
-	require(vegsoup)
+collect <- function (x) {
 	stopifnot(inherits(x, "Vegsoup"))
 	#	mandatory columns label fields
 	#	c("family", "taxon", "authority",

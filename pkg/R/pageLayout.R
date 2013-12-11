@@ -1,5 +1,4 @@
-pageLayout <-
-function (x) {
+pageLayout <- function (x) {
 	pos <-c(
 		"(1,1)", "(2,1)", "(1,2)",
 		"(2,2)", "(1,3)", "(2,3)")

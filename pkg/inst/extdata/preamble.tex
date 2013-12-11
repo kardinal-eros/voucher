@@ -1,0 +1,64 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+
+\documentclass[10pt]{article} 
+
+\usepackage{fontspec}
+\defaultfontfeatures{Mapping=tex-text}
+\usepackage[absolute]{textpos} 
+\usepackage[]{eso-pic}
+\usepackage{fancybox}
+
+\setlength{\TPHorizModule}{90mm} 
+\setlength{\TPVertModule}{80mm}
+\textblockorigin{-4mm}{-12mm}
+\setlength{\parindent}{10pt} 
+
+\AddToShipoutPicture{%
+\put(0,50){{\line(1,0){20}}}
+
+\put(0,249){{\line(1,0){20}}}
+\put(0,276){{\line(1,0){20}}}
+
+\put(0,477){{\line(1,0){20}}}
+\put(0,504){{\line(1,0){20}}}
+
+\put(0,704){{\line(1,0){20}}}
+
+\put(577,50){{\line(1,0){20}}}
+
+\put(577,249){{\line(1,0){20}}}
+\put(577,276){{\line(1,0){20}}}
+
+\put(577,477){{\line(1,0){20}}}
+\put(577,504){{\line(1,0){20}}}
+
+\put(577,704){{\line(1,0){20}}}
+
+\put(22,30){{\line(0,1){20}}}
+\put(299,30){{\line(0,1){20}}}
+\put(575,30){{\line(0,1){20}}}
+
+\put(22,704){{\line(0,1){20}}}
+\put(299,704){{\line(0,1){20}}}
+\put(575,704){{\line(0,1){20}}}
+
+}
+
+\defaultfontfeatures{Mapping=tex-text}
+\setromanfont [Ligatures={Common}, Numbers={OldStyle}]{Gill Sans}
+\setmonofont[Scale=0.8]{Monaco} 
+\setsansfont[Scale=0.9]{Optima Regular} 
+
+\title{Title}
+\author{Who you are}
+
+
+\begin{document}
+\maketitle
+\pagestyle{empty}
+\raggedbottom
+\newpage
+\input{labels.tex}
+
+\end{document}  

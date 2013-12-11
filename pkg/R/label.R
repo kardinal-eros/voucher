@@ -1,5 +1,4 @@
-label <-
-function (x, pos, side, template) {
+label <- function (x, pos, side, template) {
 	#	template based on textblock
 	#	\begin{textblock}{0.8}[side](pos)
 	r <- template
