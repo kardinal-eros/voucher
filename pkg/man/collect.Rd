@@ -1,4 +1,5 @@
 \name{collect}
+\alias{collectVegsoup}
 \alias{collect}
 
 \title{ Collect voucher data from Vegsoup object }
@@ -8,6 +9,7 @@ The function calls \code{\link[vegsoup:reverseGeocode]{reverseGeocode}} from \pk
 }
 
 \usage{
+collectVegsoup(x)
 collect(x)
 }
 
