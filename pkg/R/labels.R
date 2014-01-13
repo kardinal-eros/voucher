@@ -18,4 +18,6 @@ labels <- function (x, file = "labels.tex", template) {
 	con <- file(file)
 		writeLines(r, con)
 	close(con)
+	
+	return(invisible(r))
 }
