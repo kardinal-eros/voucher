@@ -12,6 +12,7 @@ Encoding: UTF-8
 LazyLoad: yes
 LazyData: yes
 Collate: collect.R
+         collectVegsoup.R
          label.R
          labels.R
          pageLayout.R
