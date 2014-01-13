@@ -5,7 +5,7 @@ collect <- function (x) {
 	#	"locality", "habitat",
 	#	"date", "coordinates", "id")
 	
-	#	get geocoding	
+	#	get geocoding
 	x <- reverseGeocode(x)	
 	#	species
 	xx <- Species(x)[Species(x)$voucher != "", ]
