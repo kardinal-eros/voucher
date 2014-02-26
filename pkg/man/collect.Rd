@@ -27,6 +27,9 @@ This is an extractor that befits from the data stored in vegsoup objects, namely
 data.frame
 }
 
+\note{
+You may need to set \code{options(geonamesHost = "ws5.geonames.org")} for the geonames package if you get errors. (ws3.*, ws4. or ws5*)
+}
 \author{ Roland Kaiser }
 
 \seealso{
