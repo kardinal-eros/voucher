@@ -8,7 +8,8 @@ collect <- function (x) {
 	#	get geocoding
 	x <- reverseGeocode(x)	
 	#	species
-	xx <- Species(x)[Species(x)$voucher != "", ]
+	
+	xx <- species(species(x))[species(x)$voucher != "", ]
 	xx <- xx[order(xx$voucher), ]	
 	#	sites
 	yy <- Sites(x)
