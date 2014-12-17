@@ -15,7 +15,7 @@ label <- function (x, pos, side, template) {
 	family  <- as.character(x$family)
 	taxon <- paste("\\textbf{", as.character(x$taxon), "} ",
 		"\\\\{\\footnotesize \\textsc{",
-				gsub("&", "\\&", as.character(x$authority), fixed = TRUE),
+				gsub("&", "\\&", as.character(x$author), fixed = TRUE),
 				"}}", sep = "")
 	
 	r[grep("family", r, fixed = TRUE)] <-
