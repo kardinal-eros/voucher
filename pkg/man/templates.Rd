@@ -1,6 +1,7 @@
 \name{templates}
 \alias{template}
 \alias{preamble}
+\alias{configure}
 \non_function{}
 
 \title{ LaTex template files }
@@ -15,7 +16,8 @@ Loads data.
 
 \examples{
 template()
-template()
+preamble()
+configure()
 }
 
 \keyword{ datasets }

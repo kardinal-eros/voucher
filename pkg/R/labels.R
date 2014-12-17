@@ -1,9 +1,9 @@
-labels <- function (x, file = "labels.tex", template) {
+labels <- function (x, file = "labels.tex", template, nrow = 3, ncol = 2) {
 	if (missing(template)) {
 		stop("please supply LaTex template")
 	}
 	#	names(x) <- tolower(names(x))
-	l <- pageLayout(x)
+	l <- pageLayout(x, nrow = nrow, ncol = ncol)
 	r  <- c()
 	
 	#which(pagebreak)

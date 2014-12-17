@@ -10,31 +10,33 @@ Create file to be typesetted using LaTex.
 }
 
 \usage{
-labels(x, file = "labels.tex", template)
+labels(x, file = "labels.tex", template, nrow = 3, ncol = 2)
 label(x, pos, side, template)
-pageLayout(x)
+pageLayout(x, nrow = 3, ncol = 2)
 }
 
 \arguments{
   \item{ x }{
-A data.frame
+  data.frame.
 }
   \item{ file }{
-file name
+  character. A output file name.
 }
   \item{ template }{
-LaTex template
+  character. LaTex template (see \code{\link{template}})
 }
-
+  \item{ nrow, ncol }{
+  integer. Number of rows and columns in page layout.
+}
   \item{ pos }{
-how to position individual label on page. See \sQuote{Details}.
+  how to position individual label on page. See \sQuote{Details}.
 }
   \item{ side }{
-how to position individual label on page
+  how to position individual label on page.
 }
 }
 \details{
-The function uses the \href{http://www.ctan.org/pkg/textpos}{textpos} package to place individual labels on page. A 2 by 3 layout is predefinded.
+The function uses the \href{http://www.ctan.org/pkg/textpos}{textpos} package to place individual labels on page. A 2 by 4 layout is predefined.
 
 \describe{
 

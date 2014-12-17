@@ -13,3 +13,11 @@ preamble <- function() {
 	close(con)
 	return(r)
 }
+
+configure <- function() {
+	path <- paste(system.file(package = "voucher"), "/extdata/configure.tex", sep='')
+	con <- file(path )
+		r <- readLines(con)
+	close(con)
+	return(r)
+}

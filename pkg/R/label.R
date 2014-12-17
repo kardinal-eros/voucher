@@ -36,6 +36,6 @@ label <- function (x, pos, side, template) {
 			"}}\\\\ \\vspace*{0.25cm}", sep = "")
 	#r[grep("plot", r, fixed = TRUE)] <-
 	#	paste("{\\centering{\\footnotesize --- Vegetation Sample Plot Label ",
-	#			toupper(sel$plot), " ---}}", sep = "")			
+	#			toupper(sel$plot), " ---}}", sep = "")	
 	return(r)
 }
