@@ -1,6 +1,12 @@
 voucher
 ========
 
+Build status
+------------
+
+[![Travis-CI Build Status](https://travis-ci.org/kardinal-eros/voucher.svg?branch=master)](https://travis-ci.org/kardinal-eros/voucher)
+<!-- [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/voucher)](http://cran.r-project.org/package=voucher) -->
+
 About
 -----
 
