@@ -1,0 +1,6 @@
+language: R
+cache: packages
+sudo: required
+r_github_packages:
+  - rforge/vegsoup/pkg
+
