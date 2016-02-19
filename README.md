@@ -26,7 +26,7 @@ library(devtools)
 #	install dependency vegsoup from github mirror
 install_github("rforge/vegsoup/pkg")
 
-install_github("kardinal-eros/voucher/pkg")
+install_github("kardinal-eros/voucher")
 
 library(voucher)
 ```
